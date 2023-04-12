@@ -16,10 +16,10 @@
 # |                    Google Mail         : tabiligamer@gmail.com                  |
 # |                                                                                 |
 # |---------------------------------------------------------------------------------|
-# |  INSTALLATION: 							                                        |
+# |  INSTALLATION: 							                                                          |
 # |  ++ add "source scripts/emojis.tcl" to your eggdrop config and rehash the bot.  |
 # |  ++ add "source scripts/utf.tcl" to your eggdrop config and rehash the bot.     |
-# |									                                                |
+# |									                                                                        |
 # |---------------------------------------------------------------------------------|
 # |                                                                                 |
 # | IMPORTANT                                                                       |
