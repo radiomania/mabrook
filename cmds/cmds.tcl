@@ -6,7 +6,7 @@
 # |---------------------------------------------------------------------------------|
 # |                                                                                 |
 # | *** Website             @  https://www.Eggtcl.us                                |
-# | *** GitHub              @  https://github.com/cmdsmania/mabrook	            |
+# | *** GitHub              @  https://github.com/radiomania/mabrook	            |
 # |                                                                                 |
 # |---------------------------------------------------------------------------------|
 # | *** IRC Support:                                                                |
