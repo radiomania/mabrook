@@ -38,13 +38,12 @@
 # |                                                                                 |
 # +---------------------------------------------------------------------------------|
 
+bind pub - !cmds pub_cmds
+
 
 setudef flag cmds
 
-
 #----- Dont Edit If You Dont Know It ----#
-
-bind pub - !cmds pub_cmds
 
 proc pub_cmds {nick uhost hand channel arg} {
   global botnick
