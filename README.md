@@ -1,7 +1,7 @@
 <html>
-<title>PLEASE, keep in mind, this is a work in progess</title>
+<h4>PLEASE, keep in mind, this is a work in progess</h4>
 <a name="contact"><h2>Contact</h2></a>
-You can contact me via E-Mail at <a href="mailto:madalinmen28@gmail.com">madalinmen28@gmail.com</a><br>or find me on IRC (networks: QuakeNET/UnderNET/EfNET channel: #EggdropTCL).
+You can contact me via E-Mail at <a href="mailto:tabiligamer@gmail.com">tabiligamer@gmail.com</a><br>or find me on IRC (networks: DALnet/UnderNET/UnderX channel: #UnderX).
 
 <table "id="t01"> 
 <caption><h3>IRC Networks</h3></caption>
@@ -12,15 +12,15 @@ You can contact me via E-Mail at <a href="mailto:madalinmen28@gmail.com">madalin
   </tr>
   <tr>
     <tr>
-    <td>FreeNODE - DalNET - IrcNET - NextIRC - UnderNET - EfNET - QuakeNET</td>
-    <td>#EggdropTCL</td>
-    <td>_MaDaLiN_ - EggdropTCL </td>
+    <td>UnderX - DalNET - UnderNET</td>
+    <td>#UnderX</td>
+    <td>MABROOK - #UnDerX </td>
   </tr>
   </table>
 <br>
 <br>
 <hr align="CENTER" width="50%">
-<center><font size="-1">&copy;2016 by MadaliN. <A href="#contact">CONTACT</A></font></center>
+<center><font size="-1">&copy;2023 by MABROOK. <A href="#contact">CONTACT</A></font></center>
 <hr align="CENTER" width="80%">
 </td></tr>
 </body>
