@@ -6,7 +6,7 @@
 # |---------------------------------------------------------------------------------|
 # |                                                                                 |
 # | *** Website             @  https://www.Eggtcl.us                                |
-# | *** GitHub              @  https://github.com/cmdsmania/mabrook	                |
+# | *** GitHub              @  https://github.com/cmdsmania/mabrook	            |
 # |                                                                                 |
 # |---------------------------------------------------------------------------------|
 # | *** IRC Support:                                                                |
@@ -16,18 +16,18 @@
 # |                    Google Mail         : tabiligamer@gmail.com                  |
 # |                                                                                 |
 # |---------------------------------------------------------------------------------|
-# |  INSTALLATION: 							                                        |
+# |  INSTALLATION: 							            |
 # |   ++ add "source scripts/cmds.tcl" to your eggdrop config and rehash the bot.   |
-# |									                                                |
+# |									            |
 # |---------------------------------------------------------------------------------|
 # |                               *** Commands ***                                  |
 # |     +---------------+                                                           |
 # |     [ ADMIN - PUBLIC]                                                           |
 # |     +---------------+                                                           |
-# |      							                                                |
-# |		To Activate:						                                        |
+# |      							                    |
+# |		To Activate:						            |
 # |     ++ .chanset #channel +cmds          	                                    |
-# |		To De-activate:					                                            |
+# |		To De-activate:					                    |
 # |     ++ .chanset #channel -cmds                                                  |
 # |                                                                                 |
 # |---------------------------------------------------------------------------------|
