@@ -23,8 +23,9 @@ set uxpass "mypass"
 
 bind evnt - init-server my:uxlogin
 proc my:uxlogint init-server {
+  putlog "Starting To Identify"
   putquick "PRIVMSG NickServ@Services.UnderX.Org :AUTH $::uxuser $::uxpass"
-  putquick "MODE $::botnick +x"
+  putquick "Identify Progress Done"
 }
 
 
