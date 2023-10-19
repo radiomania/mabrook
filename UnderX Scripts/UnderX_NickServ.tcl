@@ -1,33 +1,17 @@
-################################################################
-# UnderX Login v1.0
-#
-# Author: UnderX
-#
-# Info:
-# Script will auth your bot to UnderX ChanServ
-# 
-##################################################################
-# General settings
-##################################################################
-#
-#
-set uxuser "myuser"
-# Please put here your Registered Username
-#
-set uxpass "mypass"
-# Please put here your Password
-#
-###################################################################
-#                       Code starts here                          
-################################################################### 
+#This Script Is Written By BaDBoY^_^ 
+#Please Report Any Bugs To Me At badboy@mymail.com.my If You Find One
 
-bind evnt - init-server my:uxlogin
-proc my:uxlogint init-server {
-  putlog "Starting To Identify"
-  putquick "PRIVMSG NickServ@Services.UnderX.Org :AUTH $::uxuser $::uxpass"
-  putquick "Identify Progress Done"
-}
+#Just Replace yourbotpasswd With Your Bot Nick Password
 
+set nickpass "yourbotpasswd"
 
+#Don't Edit Anything Below
 
-putlog "UnderX Login v1.0 by UnderX (https://docs.underx.org) loaded"
+bind join - * ident_nickserv
+proc ident_nickserv { nick uhost hand args } {
+    putlog "Starting To Identify"
+    putserv "PRIVMSG nickserv@services.underx.org :identify $nickpass"
+    putlog "Identify Progress Done"
+  }
+
+#Copyrighted By BaDBoY's TecHnoLoGieS & CoMPanYã 2001
