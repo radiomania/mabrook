@@ -1,0 +1,49 @@
+
+INSTALLATION
+
+Attention  : version pour les serveurs ircd de ce type
+********** 
+- un pseudo réservé a son identifiant de la forme : pseudo!xxxx@zzzz (xxxx ne contenant pas guest)
+- un pseudo non réservé a son identifiant de la forme : pseudo!guest@zzzz
+En ce cas, seuls les pseudos réservés ont leurs scores cumulés correctement. 
+
+fichier conf eggdrop
+*********************
+source scripts/alltools.tcl
+
+source scripts/Scrabble-FR.tcl
+
+fichier Scrabble-FR.tcl
+***********************
+set monchan "#scrabble"
+# mettre le nom du salon
+
+Le fichier des mots :  Scrabble.db est dans le répertoire de l'eggdrop
+
+Scrabble
+*********
+C'est le script Black Scrabble 1.1 TCL (en anglais) modifié par dilettante
+Traduit en français et évidemment le dictionnaire des mots est le dictionnaire français ODS6 du célèbre jeu (mots de moins de 4 lettres supprimés)
+Une petite modification a été faite pour accepter les couleurs de l'applet lightIRC et les multi-effets du premier mot pour les fanatiques de ces options dans les "scripts".
+Modification pour prendre en compte uniquement le pseudo et non le couple host / pseudo uniquement pour les pseudos réservés,
+Les scores sont ainsi cumulés unqiuement pour les  pseudos réservés.
+
+Commandes principales pour les users
+************
+!scrabble pour lancer le jeu, 
+!top general pour afficher les scores, 
+!top runde pour afficher les meilleurs tours
+!lettre pour voir les lettres en cours
+
+Commandes uniquement pour pseudo ayant un handle dans l'eggdrop (au moins m pour le salon de l'egg)
+*********************************************************
+Si le scrabble n'est pas activé :
+taper : !scrabble on   ou encore en PL  .chanset #salonduscrabble +scrabble (voir setudef flag scrabble dans le script)
+!scrabble stop : désactive le scrabble  ou encore en PL  .chanset #salonduscrabble -scrabble
+!scrabble reset : réinitialise les scores
+
+Note
+*****
+Si vous avez une ancienne version installée, avant de relancer il faudra supprimer le fichier Scrabble_stats.db dans le répertoire de votre eggdrop
+
+En cas de souci, je suis souvent sur #la-boussole sur Europnet.
