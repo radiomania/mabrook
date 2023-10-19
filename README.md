@@ -1,8 +1,11 @@
 <html>
 <p>BASIC IRC TCL Script for FUN</p>
 <h4>PLEASE, keep in mind, this is a work in progess</h4>
+<br>
+<br>
 <a name="contact"><h2>Contact</h2></a>
-You can contact me via E-Mail at <a href="mailto:tabiligamer@gmail.com">tabiligamer@gmail.com</a><br>or find me on IRC (networks: DALnet/UnderNET/UnderX channel: #UnderX).
+
+  <p>You can contact me via E-Mail at <a href="mailto:tabiligamer@gmail.com">tabiligamer@gmail.com</a><br>or find me on IRC (networks: DALnet/UnderNET/UnderX channel: #UnderX).</p>p
 
 <table "id="t01"> 
 <caption><h3>IRC Networks</h3></caption>
