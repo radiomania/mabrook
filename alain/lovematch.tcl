@@ -52,3 +52,6 @@ if {$compatability < 50} {
 putserv "privmsg $chan :14Compatibility between03 $origargs 10as big as04 $compatability% ($loves)"
 return
 }
+
+
+putlog "lovematch.tcl modified by mabrook Loaded"
