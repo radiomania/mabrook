@@ -1,0 +1,6 @@
+#!/bin/sh
+
+#input file scores.ini, output scores.new
+
+DATE=`date +%Y-%m`
+cat scores.ini | grep "=" | grep -v Week | grep -v Year | cut -d " " -f 1 | awk '{ print substr($0, 2, length($0) - 1) }' | sed -e "s/=\([0-9]*\)/=$DATE:\1/g" | tr '[:upper:]' '[:lower:]' > scores.new

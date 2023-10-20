@@ -1,0 +1,28 @@
+game_channel=#alain
+command_char=!
+use_notice=1
+round_time=30
+warning_time=15
+delay_time=7
+letters_count=10
+letters_distribution=AAAAAAAAABBCCDDDDEEEEEEEEEEEEFFGGGHHIIIIIIIIIJKLLLLMMNNNNNNOOOOOOOOPPQRRRRRRSSSSTTTTTTUUUUVVWWXYYZ
+numbers_distribution=LLSSSS
+numbers_count=6
+# for an exact answer
+numbers_points1=40
+# for an answer within 5
+numbers_points2=20
+# for an answer within 10
+numbers_point3=10
+# for any other answer
+numbers_points4=5
+letters_bonus=10
+conundrum_points=40
+conundrum_length=8
+game_distribution=LLLLLLLCN
+#game_distribution=LLLLLLLC
+scores_entries=10
+auto_start=1
+#colours=1,15
+colours=5
+debug=0
